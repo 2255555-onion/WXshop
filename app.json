@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/classtif/classtif",
+    "pages/my/my",
+    "pages/car/car",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/shouye1.png",
+        "selectedIconPath": "./images/shouye.png"
+      },
+      {
+        "pagePath": "pages/classtif/classtif",
+        "text": "分类",
+        "iconPath": "./images/huodong1.png",
+        "selectedIconPath": "./images/huodong.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "./images/car1.png",
+        "selectedIconPath": "./images/car.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/wode1.png",
+        "selectedIconPath": "./images/wode.png"
+      }
+    ],
+    "backgroundColor": "#fff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
