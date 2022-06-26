@@ -1,0 +1,44 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+  <block>
+    <swiper-item>
+      123
+    </swiper-item>
+  </block>
+  <block>
+    <swiper-item>
+      456
+    </swiper-item>
+  </block>
+  <block>
+    <swiper-item>
+      789
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="big-box">
+  <view class="item">
+    <image src="../../images/11.png"></image>
+    <view><text>测试</text></view>
+  </view>
+  <view class="item">
+    <image src="../../images/22.png"></image>
+    <view><text>测试</text></view>
+  </view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+<view>{{name}}</view>
+
+<view wx:if="{{condition}}">点击显示</view>
+
+<view wx:for="{{arr}}">
+  {{index}}{{item.name}}{{item.age}}
+</view>
+
+<button bindtap="showName" data-xxname="传递参数">点击显示</button>

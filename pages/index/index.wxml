@@ -1,0 +1,19 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{1000}}" duration="{{500}}">
+  <block wx:for="{{banner}}" wx:key="this">
+    <swiper-item>
+      <image class="banner-img" mode="widthFix" src="{{item.pic}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="big-menus">
+  <view class="menus-item" wx:for="{{menus}}" wx:key="this">
+    <image src="{{item.pic}}"></image>
+    <view class="menus-detail"><text>{{item.name}}</text></view>
+  </view>
+</view>
+
+<view class="product-list">
+  <view>商品列表</view>
+  <product bindmyevent="toDetail" wx:for="{{productlist}}" product="{{item}}" wx:key="*this"></product>
+</view>

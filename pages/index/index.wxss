@@ -1,0 +1,29 @@
+.banner-img {
+  width: 100%;
+}
+
+.big-menus{
+   /*清空子盒子浮动造成的影响 */
+  overflow: hidden;
+
+  margin: 20rpx 0;
+}
+
+.menus-item {
+  width: 25%;
+  /* height: 200rpx; */
+  float: left;
+  background: white;
+  text-align: center;
+
+}
+
+.menus-item image {
+  width: 80rpx;
+  height: 80rpx;
+  /* padding-top: 50rpx; */
+}
+
+.menus-detail {
+  margin-bottom: 30rpx;
+}

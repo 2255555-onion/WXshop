@@ -1,0 +1,27 @@
+.getuser{
+  height: 100rpx;
+  text-align: center;
+  padding-top: 75rpx;
+}
+
+.top{
+  height: 250rpx;
+  background: white;
+}
+
+.mylist{
+  margin-top: 20rpx;
+}
+
+.list{
+  padding: 20rpx;
+  border-top: 1rpx solid rgba(211, 210, 210, 0.808);
+  background: white;
+}
+
+.box{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}

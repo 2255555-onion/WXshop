@@ -1,0 +1,15 @@
+<view class="product-item" bindtap="tohome" data-id="{{product.id}}">
+  <view class="item-left">
+    <image src="{{product.image}}"></image>
+  </view>
+
+  <view class="item-right">
+    <view class="product-title">{{product.store_name}}</view>
+    <view class="product-address">广州天河</view>
+    <view class="product-price">{{product.price}}</view>
+    <view class="product-icon">
+      <image src="../../images/11.png"></image>
+    </view>
+  </view>
+</view>
+

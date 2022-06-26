@@ -1,0 +1,43 @@
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{1000}}" duration="{{500}}">
+  <block wx:for="{{allProduct.slider_image}}" wx:key="this">
+    <swiper-item>
+      <image mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="detail-info">
+  <view class="detail-title">{{allProduct.store_name}}</view>
+  
+  <view class="icon-sc">
+    <image src="../../images/huodong.png"></image>
+    <view>未收藏</view>
+  </view>
+</view>
+
+<view class="price">
+  <text class="x-price">${{allProduct.price}}</text>
+  <text class="y-price">${{allProduct.ot_price}}</text>
+</view>
+
+<view class="border"></view>
+
+<view class="send-box">
+  <text>*本产品由品牌商发货</text>
+</view>
+
+<view class="product-detail">
+  <text>商品详情</text>
+</view>
+
+<rich-text nodes="{{allProduct.description}}"></rich-text>
+
+<view class="footer">
+  <view class="car-icon" bindtap="toCar">
+    <image src="../../images/car.png"></image>
+    <text class="num">{{carNum}}</text>
+  </view>
+  <view class="go-index">前往商城</view>
+  <view class="add-car" bindtap="addCard">加入购物车</view>
+  <view class="go-buy">前往支付</view>
+</view>

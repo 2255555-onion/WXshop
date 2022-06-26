@@ -1,0 +1,19 @@
+<view class="top">
+  <view class="getuser">
+    <button bindtap="get">获取头像昵称</button>
+  </view>
+</view>
+
+<view class="mylist">
+  <view class="list">我的收藏</view>
+  <view class="list">我的订单</view>
+  <view class="list">我的地址</view>
+  <view class="list">联系客服</view>
+  <view class="list">关于我们</view>
+</view>
+
+<view class="box">
+  <open-data type="userAvatarUrl"></open-data>
+</view>
+
+<open-data type="userNickName" lang="zh_CN"></open-data>

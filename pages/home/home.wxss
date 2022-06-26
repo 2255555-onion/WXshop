@@ -1,0 +1,25 @@
+swiper-item{
+  text-align: center;
+}
+
+.big-box{
+  height: 450rpx;
+  background: pink;
+}
+
+.item{
+  width: 25%;
+  background: skyblue;
+  height: 200rpx;
+  float: left;
+  text-align: center;
+}
+
+.item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.item:nth-child(2n){
+  background: tomato;
+}

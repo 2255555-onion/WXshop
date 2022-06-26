@@ -1,0 +1,143 @@
+/* pages/detail/detail.wxss */
+swiper {
+  height: 750rpx;
+}
+swiper image {
+  height: 750rpx;
+  width: 100%;
+}
+
+.detail-info {
+  background: white;
+  /* 相对定位 */
+  position: relative;
+  padding-top: 20rpx;
+}
+
+.detail-title {
+  height: 100rpx;
+  font-size: 30rpx;
+  color: #5f5f5f;
+  line-height: 48rpx;
+  padding-right: 150rpx;
+  padding-left: 10rpx;
+  /* 多行文本溢出 */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  /*行数*/
+  -webkit-box-orient: vertical;
+}
+
+.icon-sc{
+  height: 86rpx;
+  width: 130rpx;
+  position: absolute;
+  right: 0;
+  top: 20rpx;
+  text-align: center;
+  font-size: 24rpx;
+  padding-top: 14rpx;
+  color: #5f5f5f;
+  border-left: 1rpx solid #e7e7e7;
+}
+
+.icon-sc image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.price{
+  height: 100rpx;
+  background: white;
+  /* 只有一行的时候用这个字体才会垂直居中 */
+  line-height: 100rpx;
+}
+
+.x-price{
+  color: red;
+  font-size: 36rpx;
+  padding-left: 16rpx;
+}
+
+.y-price{
+  color: #5f5f5f;
+  /* 删除线 */
+  text-decoration: line-through;
+  padding-left: 6rpx;
+}
+
+.border{
+  height: 1rpx;
+  background: #5f5f5f;
+  margin: 0 10rpx;
+}
+
+.send-box{
+  height: 60rpx;
+  background: white;
+
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  color: #5f5f5f;
+  line-height: 60rpx;
+}
+
+.product-detail{
+  margin-top: 30rpx;
+  background: white;
+}
+
+.footer{
+  position: fixed;
+  height: 100rpx;
+  width: 100vw;
+  background: pink;
+  bottom: 0;
+/* 弹性布局 */
+  display: flex;
+}
+/* 子代选择器 */
+.footer > view {
+  width: 25%;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+  font-size: 24rpx;
+}
+.car-icon image{
+  height: 60rpx;
+  width: 60rpx;
+  vertical-align: middle;
+}
+.car-icon{
+  background: #ffffff;
+  /* 相对定位 */
+  position: relative;
+}
+
+.go-index{
+  background: #ffa500;
+}
+
+.add-car{
+  background: #00aaef;
+}
+
+.go-buy{
+  background: #69c3aa;
+}
+
+.num{
+  background: red;
+  position: absolute;
+  top: 10rpx;
+  right: 45rpx;
+  height: 30rpx;
+  width: 30rpx;
+  line-height: 30rpx;
+  /* 圆角边框 */
+  border-radius: 50%;
+}
